@@ -12,5 +12,5 @@ func main() {
 
 // HelloServer expose endpoint to greet
 func HelloServer(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello %s!", r.URL.Path[1:])
+	fmt.Fprintf(w, "Hello hi %s!", r.URL.Path[1:])
 }
