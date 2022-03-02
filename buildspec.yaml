@@ -16,5 +16,6 @@ phases:
       - go build -o app
 
 artifacts:
+  type: zip
   files:
-  - template-export.yml
+  - template.yml
